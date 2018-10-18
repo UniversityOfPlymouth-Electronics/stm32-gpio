@@ -133,6 +133,7 @@ namespace SOCEM {
 	};
 
 	void delay() {
+			//This is horrible
 			for (unsigned long x=0; x<1000000L; x++);
 	}
 }
